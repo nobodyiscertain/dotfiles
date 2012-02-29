@@ -1,9 +1,1 @@
-command! StripWhitespace %s/\s\+$//
-set gfn=Menlo:h13
 
-color solarized
-set background=dark
-set autoread
-autocmd BufWritePre * :%s/\s\+$//e
-
-let g:syntastic_disabled_filetypes = ['sass']
