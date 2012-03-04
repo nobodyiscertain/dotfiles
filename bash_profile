@@ -20,4 +20,4 @@ export PATH="./bin:$PATH"
 [[ -s $HOME/.aliases ]] && source $HOME/.aliases
 
 # Git Commands
-[[ -s $HOME/.scripts/git-completion.bash ]] && source $HOME/.scripts/git-completion.bash
+[[ -s $HOME/.gitcompletion ]] && source $HOME/.gitcompletion
