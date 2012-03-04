@@ -1,35 +1,9 @@
 # Shell
-
-alias ln='ln -v'
 alias mkdir='mkdir -p'
-alias ...='../..'
-alias l='ls'
 alias ll='ls -al'
-alias lh='ls -Alh'
 alias tlf="tail -f"
 
-alias -g G='| grep'
-alias -g M='| less'
-alias -g L='| wc -l'
-alias -g ONE="| awk '{ print \$1}'"
-
-# GIT
-
-function git(){hub "$@"}
-alias g="git"
-alias gci="git pull --rebase && rake && git push"
-alias gst='git status'
-alias gl='git pull'
-alias gp='git push'
-alias gd='git diff | mate -'
-alias gc='git commit -v'
-alias gca='git commit -v -a'
-alias gb='git branch'
-alias gba='git branch -a'
-alias grm='git ls-files -d -z | xargs -0 git update-index --remove'
-
 # Ruby
-
 alias s="bundle exec rspec"
 alias gi="gem install"
 alias giv="gem install -v"
@@ -44,7 +18,6 @@ alias atp="autotest -cfp"
 alias rsp="be rake parallel:spec"
 
 # Rails
-
 alias rst='rails server thin'
 alias migrate="bundle exec rake db:migrate db:test:prepare"
 alias migratep="bundle exec rake db:migrate parallel:prepare"
@@ -52,22 +25,44 @@ alias remigrate="rake db:migrate && rake db:migrate:redo && rake db:schema:dump 
 alias remongrate="rake mongoid:migrate && rake mongoid:migrate:redo"
 alias ship='git fetch && git rebase origin/master && git checkout master && git merge @{-1} && rake && git push'
 
-# Databases
-
-alias pg_start='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start'
-alias pg_stop='pg_ctl -D /usr/local/var/postgres stop -s -m fast'
-
 # Editing
-
 alias ealiases='vim -f "$HOME/.aliases"; source "$HOME/.aliases";'
-alias elogin='vim -f "$HOME/.zlogin"; source "$HOME/.zlogin";'
-alias ezsh='vim -f "$HOME/.zshrc"; source "$HOME/.zshrc";'
 alias egit='vim "$HOME/.gitconfig"'
 alias ehosts='sudo vim /etc/hosts'
 alias evhosts='sudo vim -f /etc/apache2/extra/httpd-vhosts.conf; sudo apachectl restart;'
 
-# TMUX
 
-alias tmux-start="tmux new -s pairing"
-alias tmux-attach="tmux attach -t pairing"
-alias tmux-stop="tmux kill-server"
+# Git Commands
+alias git=hub
+alias gs='git status'
+alias gst='git status'
+alias gp='git push'
+alias gpl='git pull'
+alias gb='git br'
+alias gba='git br -a'
+alias gc='git commit'
+alias grm='git ls-files -d -z | xargs -0 git update-index --remove'
+
+# Capistrano Commands
+alias cpd='cap production deploy'
+alias cdb='cap production pull_db'
+alias cpf='cap production pull_files'
+alias cpdb='cap production db:pull'
+alias cddb='cap dev db:pull'
+
+#MySQL Commands
+alias stop_mysql='sudo launchctl unload -w /Library/LaunchDaemons/com.mysql.mysqld.plist'
+alias start_mysql='sudo launchctl load -w /Library/LaunchDaemons/com.mysql.mysqld.plist'
+
+#Apache Commands
+alias ap_start='sudo apachectl start'
+alias ap_stop='sudo apachectl stop'
+alias ap_restart='sudo apachectl restart'
+
+# OhEhSex
+alias fdns='dscacheutil -flushcache'
+alias phplog='tlf /Applications/MAMP/logs/php_error.log'
+
+function msd {
+  mysqldump -uroot -proot $1 | gzip > $1.sql.gz
+}
