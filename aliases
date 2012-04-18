@@ -61,6 +61,7 @@ alias ap_restart='sudo apachectl restart'
 # OhEhSex
 alias fdns='dscacheutil -flushcache'
 alias phplog='tlf /Applications/MAMP/logs/php_error.log'
+alias boner='B=========================D'
 
 function msd {
   mysqldump -uroot -proot $1 | gzip > $1.sql.gz
