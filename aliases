@@ -50,8 +50,12 @@ alias cpdb='cap production db:pull'
 alias cddb='cap dev db:pull'
 
 #MySQL Commands
-alias stop_mysql='sudo launchctl unload -w /Library/LaunchDaemons/com.mysql.mysqld.plist'
-alias start_mysql='sudo launchctl load -w /Library/LaunchDaemons/com.mysql.mysqld.plist'
+alias mysql:stop='sudo launchctl unload -w /Library/LaunchDaemons/com.mysql.mysqld.plist'
+alias mysql:start='sudo launchctl load -w /Library/LaunchDaemons/com.mysql.mysqld.plist'
+
+#Postgresql
+alias pg:start='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start'
+alias pg:stop='pg_ctl -D /usr/local/var/postgres stop -s -m fast'
 
 #Apache Commands
 alias ap_start='sudo apachectl start'
@@ -61,7 +65,6 @@ alias ap_restart='sudo apachectl restart'
 # OhEhSex
 alias fdns='dscacheutil -flushcache'
 alias phplog='tlf /Applications/MAMP/logs/php_error.log'
-alias boner='B=========================D'
 
 function msd {
   mysqldump -uroot -proot $1 | gzip > $1.sql.gz
