@@ -33,7 +33,7 @@ alias evhosts='sudo vim -f /etc/apache2/extra/httpd-vhosts.conf; sudo apachectl 
 
 # Git Commands
 alias git=hub
-alias gs='git status'
+alias gs='git status --short'
 alias gst='git status'
 alias gp='git push'
 alias gpl='git pull'
