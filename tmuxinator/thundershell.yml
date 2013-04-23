@@ -1,0 +1,15 @@
+project_name: Thundershell
+project_root: ~/Code/thundershell
+tabs:
+  - dev:
+      layout: even-horizontal
+      panes:
+        - #bash
+        - "tail -f log/development.log"
+  - vim: vim .
+  - tests:
+      layout: main-vertical
+      panes:
+        - zeus start
+        - guard
+  - console: zeus c
