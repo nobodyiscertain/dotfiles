@@ -1,0 +1,13 @@
+# ~/.tmuxinator/txtblog.yml
+# you can make as many tabs as you wish...
+
+project_name: txtblog
+project_root: ~/Code/blog.thisbythem.com
+pre: bundle
+tabs:
+  - bash&logs:
+      layout: even-horizontal
+      panes:
+        - #bash
+        - be guard
+  - editor: vim .

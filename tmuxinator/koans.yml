@@ -1,0 +1,11 @@
+# ~/.tmuxinator/koans.yml
+# you can make as many tabs as you wish...
+
+project_name: koans
+project_root: ~/Code/koans
+tabs:
+  - bash&tests:
+      layout: even-horizontal
+      panes:
+        - vim .
+        - autotest

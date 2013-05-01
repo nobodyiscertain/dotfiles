@@ -7,7 +7,7 @@ tabs:
   - bash&logs:
       layout: even-horizontal
       panes:
-        - mrt start
+        - mrt
         - #empty, will just run plain bash
   - vim: "vim ."
   - logs: #mrt logs
