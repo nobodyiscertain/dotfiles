@@ -9,5 +9,5 @@ tabs:
       panes:
         - mrt start
         - #empty, will just run plain bash
-  - vim: vim .
-  - logs: mrt logs
+  - vim: "vim ."
+  - logs: #mrt logs
