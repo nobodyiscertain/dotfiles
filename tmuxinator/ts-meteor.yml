@@ -1,0 +1,13 @@
+# ~/.tmuxinator/ts-meteor.yml
+# you can make as many tabs as you wish...
+
+project_name: ts-meteor
+project_root: ~/Code/thundershell-meteor
+tabs:
+  - bash&logs:
+      layout: even-vertical
+      panes:
+        - mrt start
+        - #empty, will just run plain bash
+  - vim: vim .
+  - logs: mrt logs
