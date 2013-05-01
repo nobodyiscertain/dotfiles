@@ -5,7 +5,7 @@ project_name: ts-meteor
 project_root: ~/Code/thundershell-meteor
 tabs:
   - bash&logs:
-      layout: even-vertical
+      layout: even-horizontal
       panes:
         - mrt start
         - #empty, will just run plain bash

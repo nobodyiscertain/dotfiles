@@ -1,5 +1,5 @@
 export PS1='\[\033[0;31m\]hacker@\[\033[0;33m\]\w\[\033[0;34m\]$(__git_ps1 " (%s)")\[\033[00m\]$ '
-export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:$PATH"
+export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/share/npm/bin:$PATH"
 export PATH=$PATH:/opt/local/bin
 export MANPATH=$MANPATH:/opt/local/share/man
 export INFOPATH=$INFOPATH:/opt/local/share/info
