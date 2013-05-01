@@ -4,26 +4,15 @@ alias ll='ls -al'
 alias tlf="tail -f"
 
 # Ruby
-alias s="bundle exec rspec"
+alias s="rspec"
 alias gi="gem install"
-alias giv="gem install -v"
 alias b="bundle"
-alias bi="b install --path .bundle --binstubs"
-alias bil="bi --local"
-alias bu="b update"
-alias be="b exec"
-alias binit="bi && b package && echo 'vendor/bundle' >> .gitignore"
-alias atf="autotest -cf"
-alias atp="autotest -cfp"
-alias rsp="be rake parallel:spec"
+alias z="zeus"
 
 # Rails
-alias rst='rails server thin'
-alias migrate="bundle exec rake db:migrate db:test:prepare"
-alias migratep="bundle exec rake db:migrate parallel:prepare"
-alias remigrate="rake db:migrate && rake db:migrate:redo && rake db:schema:dump db:test:prepare"
+alias migrate="rake db:migrate db:test:prepare"
+alias zmigrate="z rake db:migrate db:test:prepare"
 alias remongrate="rake mongoid:migrate && rake mongoid:migrate:redo"
-alias ship='git fetch && git rebase origin/master && git checkout master && git merge @{-1} && rake && git push'
 
 # Editing
 alias ealiases='vim -f "$HOME/.aliases"; source "$HOME/.aliases";'
@@ -65,6 +54,11 @@ alias ap_restart='sudo apachectl restart'
 # OhEhSex
 alias fdns='dscacheutil -flushcache'
 alias phplog='tlf /Applications/MAMP/logs/php_error.log'
+
+# tmux
+alias mlsesh='tmux list-sessions'
+alias mkill='tmux kill-server'
+alias mnew='tmux new -s'
 
 function msd {
   mysqldump -uroot -proot $1 | gzip > $1.sql.gz
