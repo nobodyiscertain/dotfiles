@@ -10,6 +10,7 @@ alias b="bundle"
 alias z="zeus"
 
 # Rails
+alias be="bundle exec"
 alias migrate="rake db:migrate db:test:prepare"
 alias zmigrate="z rake db:migrate db:test:prepare"
 alias remongrate="rake mongoid:migrate && rake mongoid:migrate:redo"
