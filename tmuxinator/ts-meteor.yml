@@ -8,6 +8,7 @@ tabs:
       layout: even-horizontal
       panes:
         - mrt
+        - sass --watch client/sass:client/css
         - #empty, will just run plain bash
   - vim: "vim ."
   - logs: #mrt logs
