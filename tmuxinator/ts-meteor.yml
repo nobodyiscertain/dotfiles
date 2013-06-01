@@ -2,13 +2,14 @@
 # you can make as many tabs as you wish...
 
 project_name: ts-meteor
-project_root: ~/Code/thundershell-meteor
+project_root: ~/Code/thundershell
 tabs:
   - bash&logs:
       layout: even-horizontal
       panes:
         - mrt
-        - sass --watch client/sass:client/css
-        - #empty, will just run plain bash
-  - vim: "vim ."
+        - #bash
+        - compass watch client/
+  - editor: vim .
   - logs: #mrt logs
+  - database: mrt mongo
