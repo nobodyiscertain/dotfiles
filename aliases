@@ -57,9 +57,9 @@ alias fdns='dscacheutil -flushcache'
 alias phplog='tlf /Applications/MAMP/logs/php_error.log'
 
 # tmux
-alias mlsesh='tmux list-sessions'
-alias mkill='tmux kill-server'
-alias mnew='tmux new -s'
+alias tmls='tmux list-sessions'
+alias tmk='tmux kill-server'
+alias tmn='tmux new -s'
 
 function msd {
   mysqldump -uroot -proot $1 | gzip > $1.sql.gz
