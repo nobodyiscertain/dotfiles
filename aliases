@@ -57,7 +57,7 @@ alias fdns='dscacheutil -flushcache'
 alias phplog='tlf /Applications/MAMP/logs/php_error.log'
 
 # tmux
-alias tmls='tmux list-sessions'
+alias tml='tmux list-sessions'
 alias tmk='tmux kill-server'
 alias tmn='tmux new -s'
 
