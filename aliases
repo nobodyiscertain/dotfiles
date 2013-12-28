@@ -60,6 +60,7 @@ alias phplog='tlf /Applications/MAMP/logs/php_error.log'
 alias tml='tmux list-sessions'
 alias tmk='tmux kill-server'
 alias tmn='tmux new -s'
+alias tma='tmux attach -t'
 
 function msd {
   mysqldump -uroot -proot $1 | gzip > $1.sql.gz
