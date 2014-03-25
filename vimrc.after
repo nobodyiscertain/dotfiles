@@ -7,3 +7,6 @@ set autoread
 autocmd BufWritePre * :%s/\s\+$//e
 
 let g:syntastic_disabled_filetypes = ['sass']
+let NERDTreeShowLineNumbers = 1
+
+set relativenumber
