@@ -1,0 +1,12 @@
+[submodule "janus/Align"]
+	path = janus/Align
+	url = git@github.com:vim-scripts/Align.git
+[submodule "janus/ag"]
+	path = janus/ag
+	url = git@github.com:rking/ag.vim.git
+[submodule "janus/surround"]
+	path = janus/surround
+	url = git@github.com:tpope/vim-surround.git
+[submodule "janus/snipmate-snippets-rubymotion"]
+	path = janus/snipmate-snippets-rubymotion
+	url = git@github.com:rcyrus/snipmate-snippets-rubymotion.git
