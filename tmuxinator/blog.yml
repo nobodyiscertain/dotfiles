@@ -17,9 +17,9 @@ root: ~/Code/blog.thisbythem.com
 
 windows:
   - bashlogs:
-      layout: main-vertical
+      layout: even-horizontal
       panes:
-        -
+        - git pull
         - guard
   - vim:
       panes:
