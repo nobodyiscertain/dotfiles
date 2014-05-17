@@ -22,9 +22,8 @@ alias ehosts='sudo vim /etc/hosts'
 alias evhosts='sudo vim -f /etc/apache2/extra/httpd-vhosts.conf; sudo apachectl restart;'
 
 # Git Commands
-alias git=hub
-alias gs='git status --short'
 alias gst='git status'
+alias gs='git status --short'
 alias gp='git push'
 alias gpl='git pull'
 alias gb='git br'
