@@ -1,13 +1,13 @@
-# ~/.tmuxinator/htxl.yml
+# ~/.tmuxinator/thrive.yml
 
-name: htxl
-root: ~/Code/heathertroxel-statamic
+name: thrive
+root: ~/Code/thrive
 
 # Optional tmux socket
 # socket_name: foo
 
 # Runs before everything. Use it to start daemons etc.
-pre: git pull
+# pre: sudo /etc/rc.d/mysqld start
 
 # Runs in each window and pane before window/pane specific commands. Useful for setting up interpreter versions.
 # pre_window: rbenv shell 2.0.0-p247
@@ -23,5 +23,5 @@ windows:
       layout: even-horizontal
       panes:
         - #bash
-        - cd _themes/htxl; sass -w sass:css
-  - editor: vim
+        - guard
+  - editor: vim .

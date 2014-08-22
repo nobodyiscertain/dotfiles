@@ -1,13 +1,13 @@
-# ~/.tmuxinator/htxl.yml
+# ~/.tmuxinator/goodhappens.yml
 
-name: htxl
-root: ~/Code/heathertroxel-statamic
+name: goodhappens
+root: ~/Code/goodhappens.org
 
 # Optional tmux socket
 # socket_name: foo
 
 # Runs before everything. Use it to start daemons etc.
-pre: git pull
+# pre: sudo /etc/rc.d/mysqld start
 
 # Runs in each window and pane before window/pane specific commands. Useful for setting up interpreter versions.
 # pre_window: rbenv shell 2.0.0-p247
@@ -19,9 +19,9 @@ pre: git pull
 # tmux_command: byobu
 
 windows:
-  - bash&logs:
+  - editor:
       layout: even-horizontal
       panes:
         - #bash
-        - cd _themes/htxl; sass -w sass:css
-  - editor: vim
+        - #ssh
+  - vim: vim .
