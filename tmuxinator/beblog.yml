@@ -1,7 +1,7 @@
-# ~/.tmuxinator/aaf.yml
+# ~/.tmuxinator/beautified.yml
 
-name: aaf
-root: ~/Code/axeandfiddle.com
+name: beblog
+root: ~/Code/beautified-blog
 
 # Optional tmux socket
 # socket_name: foo
@@ -20,8 +20,10 @@ root: ~/Code/axeandfiddle.com
 
 windows:
   - editor:
-      layout: even-horizontal
+    layout: even-horizontal
       panes:
-        - #bash
-        - cd _themes/axeandfiddle; sass -w sass:css
+        - # bash
+        - # sass
   - vim: vim .
+
+
