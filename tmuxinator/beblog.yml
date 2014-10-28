@@ -1,5 +1,3 @@
-# ~/.tmuxinator/beautified.yml
-
 name: beblog
 root: ~/Code/beautified-blog
 
@@ -20,7 +18,7 @@ root: ~/Code/beautified-blog
 
 windows:
   - editor:
-    layout: even-horizontal
+      layout: even-horizontal
       panes:
         - # bash
         - # sass
