@@ -1,5 +1,7 @@
-name: beblog
-root: ~/Code/beautified-blog
+# ~/.tmuxinator/mp.yml
+
+name: mp
+root: ~/Code/maidprocares.com
 
 # Optional tmux socket
 # socket_name: foo
@@ -17,12 +19,11 @@ root: ~/Code/beautified-blog
 # tmux_command: byobu
 
 windows:
-  - editor:
+  - bash&sass:
       layout: even-horizontal
       panes:
         - # bash
-        - cd _themes/beautified; sass -w sass:css
+        - cd _themes/maidpro; sass -w sass:css
   - vim: vim .
-  - theme: cd _themes/beautified; vim .
-
-
+  - theme: cd _themes/maidpro; vim .
+  - dev: ssh txtdodev
