@@ -1,7 +1,7 @@
 # ~/.tmuxinator/ohlife.yml
 
 name: ohlife
-root: ~/Code/ohlife
+root: ~/Code/ohlife-clone
 
 # Optional tmux socket
 # socket_name: foo
@@ -22,6 +22,8 @@ windows:
   - bash&logs:
       layout: even-horizontal
       panes:
-        - #bash
-        - guard
+        - # bash
+        - foreman start
   - vim: vim .
+  - console: be rails c
+  - logs: heroku logs -t
