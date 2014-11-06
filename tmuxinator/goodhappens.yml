@@ -23,5 +23,6 @@ windows:
       layout: even-horizontal
       panes:
         - #bash
-        - #ssh
-  - vim: vim .
+        - cd _themes/goodhappens; sass -w sass:css
+  - site: vim .
+  - theme: cd _themes/goodhappens; vim .

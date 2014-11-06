@@ -1,4 +1,4 @@
-# ~/.tmuxinator/mpc.yml
+# ~/.tmuxinator/mp.yml
 
 name: mpc
 root: ~/Code/maidprocares.com
@@ -19,9 +19,11 @@ root: ~/Code/maidprocares.com
 # tmux_command: byobu
 
 windows:
-  - editor:
+  - bash&sass:
       layout: even-horizontal
       panes:
-        - #bash
-        - _themes/maidprocares; sass -w sass:css
+        - # bash
+        - cd _themes/maidpro; sass -w sass:css
   - vim: vim .
+  - theme: cd _themes/maidpro; vim .
+  - dev: ssh txtdodev
