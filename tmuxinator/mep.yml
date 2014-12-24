@@ -1,7 +1,7 @@
 # ~/.tmuxinator/ohlife.yml
 
 name: mep
-root: ~/Code/myeveningpost
+root: ~/Code/myeveningpost-app
 
 # Optional tmux socket
 # socket_name: foo
@@ -26,4 +26,10 @@ windows:
         - foreman start
   - vim: vim .
   - console: be rails c
-  - logs: heroku logs -t
+  - server: #cli
+  - website: cd ../myeveningpost-website; vim .
+  - webash&runner:
+      layout: even-horizontal
+      panes:
+        - "cd ../myeveningpost-website"
+        - "cd ../myeveningpost-website/_themes/mep; sass -w sass:css"
