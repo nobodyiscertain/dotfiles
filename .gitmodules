@@ -10,3 +10,6 @@
 [submodule "janus/snipmate-snippets-rubymotion"]
 	path = janus/snipmate-snippets-rubymotion
 	url = git@github.com:rcyrus/snipmate-snippets-rubymotion.git
+[submodule "janus/vim-blade"]
+	path = janus/vim-blade
+	url = git@github.com:xsbeats/vim-blade.git
