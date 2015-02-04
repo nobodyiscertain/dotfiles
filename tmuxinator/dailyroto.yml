@@ -29,5 +29,5 @@ windows:
   - tests&assets:
       layout: even-horizontal
       panes:
-        - # I'm running your tests
-        - # I'm running your mother
+        - gulp tdd
+        - gulp watch
