@@ -4,16 +4,10 @@ alias ll='ls -al'
 alias tlf="tail -f"
 
 # Ruby
-alias s="rspec"
-alias gi="gem install"
 alias b="bundle"
-alias z="zeus"
 
 # Rails
 alias be="bundle exec"
-alias migrate="rake db:migrate db:test:prepare"
-alias zmigrate="z rake db:migrate db:test:prepare"
-alias remongrate="rake mongoid:migrate && rake mongoid:migrate:redo"
 
 # Editing
 alias ealiases='vim -f "$HOME/.aliases"; source "$HOME/.aliases";'
