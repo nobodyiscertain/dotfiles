@@ -4,7 +4,7 @@ export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/shar
 export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin
 # RVM Config
 export PATH="./bin:$PATH"
-export PATH="$PATH:~/.composer/vendor/bin"
+export PATH="$PATH:~/.composer/vendor/bin:./vendor/bin"
 export MANPATH=$MANPATH:/opt/local/share/man
 export INFOPATH=$INFOPATH:/opt/local/share/info
 export MAGICK_HOME="/usr/local"
