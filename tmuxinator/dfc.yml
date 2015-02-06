@@ -1,7 +1,7 @@
 # ~/.tmuxinator/dailyroto.yml
 
-name: dailyroto
-root: ~/Code/dailyroto.com
+name: dfc
+root: ~/Code/dailyfantasycafe.com
 
 # Optional tmux socket
 # socket_name: foo
