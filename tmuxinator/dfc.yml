@@ -25,9 +25,9 @@ windows:
         - # bash
         - php artisan serve
   - vim: vim .
-  - console: php artisan tinker
   - tests&assets:
       layout: even-horizontal
       panes:
         - gulp tdd
         - gulp watch
+  - console: php artisan tinker
