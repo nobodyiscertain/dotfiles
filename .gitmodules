@@ -13,3 +13,6 @@
 [submodule "janus/vim-blade"]
 	path = janus/vim-blade
 	url = git@github.com:xsbeats/vim-blade.git
+[submodule "janus/PIV"]
+	path = janus/PIV
+	url = git@github.com:spf13/PIV.git
