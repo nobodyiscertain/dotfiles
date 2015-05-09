@@ -1,7 +1,7 @@
-# ~/.tmuxinator/ohlife.yml
+# ~/.tmuxinator/mlbstats.yml
 
-name: mep
-root: ~/Code/myeveningpost-app
+name: mlbstats
+root: ~/
 
 # Optional tmux socket
 # socket_name: foo
@@ -19,21 +19,10 @@ root: ~/Code/myeveningpost-app
 # tmux_command: byobu
 
 windows:
-  - bash&logs:
-      layout: even-horizontal
+  - editor:
+      layout: main-vertical
       panes:
-        - # bash
-        - foreman start
-  - vim: vim .
-  - console&tests:
-      layout: even-horizontal
-      panes:
-        - be rails c
-        - be guard
+        - vim
+        - guard
+  - server: bundle exec rails s
   - logs: tail -f log/development.log
-  - website: cd ../myeveningpost-website; vim .
-  - webash&runner:
-      layout: even-horizontal
-      panes:
-        - "cd ../myeveningpost-website"
-        - "cd ../myeveningpost-website/_themes/mep; sass -w sass:css"

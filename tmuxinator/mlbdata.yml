@@ -1,7 +1,7 @@
-# ~/.tmuxinator/ohlife.yml
+# ~/.tmuxinator/mlbdata.yml
 
-name: mep
-root: ~/Code/myeveningpost-app
+name: mlbdata
+root: ~/Code/mlbdata.dailyfantasycafe.com
 
 # Optional tmux socket
 # socket_name: foo
@@ -19,21 +19,15 @@ root: ~/Code/myeveningpost-app
 # tmux_command: byobu
 
 windows:
-  - bash&logs:
+  - bash&server:
       layout: even-horizontal
       panes:
         - # bash
-        - foreman start
+        - php artisan tail
   - vim: vim .
-  - console&tests:
+  - tests&assets:
       layout: even-horizontal
       panes:
-        - be rails c
-        - be guard
-  - logs: tail -f log/development.log
-  - website: cd ../myeveningpost-website; vim .
-  - webash&runner:
-      layout: even-horizontal
-      panes:
-        - "cd ../myeveningpost-website"
-        - "cd ../myeveningpost-website/_themes/mep; sass -w sass:css"
+        - gulp tdd
+        - gulp watch
+  - console: php artisan tinker
