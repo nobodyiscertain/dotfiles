@@ -16,3 +16,6 @@
 [submodule "janus/PIV"]
 	path = janus/PIV
 	url = git@github.com:spf13/PIV.git
+[submodule "janus/delimitMate"]
+	path = janus/delimitMate
+	url = git@github.com:Raimondi/delimitMate.git
