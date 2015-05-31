@@ -1,7 +1,7 @@
 # ~/.tmuxinator/ohlife.yml
 
 name: mep
-root: ~/Code/myeveningpost-app
+root: ~/Code/app.myeveningpost.com
 
 # Optional tmux socket
 # socket_name: foo
