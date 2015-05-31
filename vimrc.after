@@ -13,3 +13,5 @@ let NERDTreeShowLineNumbers = 1
 set relativenumber
 
 au BufNewFile,BufRead *.blade.php set filetype=blade.html
+
+set clipboard=unnamed
