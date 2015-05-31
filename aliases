@@ -33,8 +33,8 @@ alias cpdb='cap production db:pull'
 alias cddb='cap dev db:pull'
 
 #MySQL Commands
-alias mysql:stop='sudo launchctl unload -w /Library/LaunchDaemons/com.mysql.mysqld.plist'
-alias mysql:start='sudo launchctl load -w /Library/LaunchDaemons/com.mysql.mysqld.plist'
+alias mysql:stop='mysql.server stop'
+alias mysql:start='mysql.server start'
 
 #Postgresql
 alias pg:start='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start'
