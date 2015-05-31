@@ -19,3 +19,6 @@
 [submodule "janus/delimitMate"]
 	path = janus/delimitMate
 	url = git@github.com:Raimondi/delimitMate.git
+[submodule "janus/vim-eco"]
+	path = janus/vim-eco
+	url = git@github.com:AndrewRadev/vim-eco.git
