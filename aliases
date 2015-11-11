@@ -1,6 +1,6 @@
 # Shell
 alias mkdir='mkdir -p'
-alias ll='ls -al'
+alias ll='ls -hla'
 alias tlf="tail -f"
 
 # Ruby
@@ -46,7 +46,7 @@ alias ap_stop='sudo apachectl stop'
 alias ap_restart='sudo apachectl restart'
 
 # OhEhSex
-alias fdns='dscacheutil -flushcache'
+alias fdns='sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder; say cache flushed'
 alias phplog='tlf /Applications/MAMP/logs/php_error.log'
 alias clearbashlog='sudo rm -rf /var/log/asl/*.asl'
 
