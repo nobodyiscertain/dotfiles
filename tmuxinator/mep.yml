@@ -31,9 +31,9 @@ windows:
         - be rails c
         - be guard
   - logs: tail -f log/development.log
-  - website: cd ../myeveningpost-website; vim .
+  - website: cd ../myeveningpost.com; vim .
   - webash&runner:
       layout: even-horizontal
       panes:
-        - "cd ../myeveningpost-website"
-        - "cd ../myeveningpost-website/_themes/mep; sass -w sass:css"
+        - "cd ../myeveningpost.com"
+        - "cd ../myeveningpost.com/_themes/mep; sass -w sass:css"
