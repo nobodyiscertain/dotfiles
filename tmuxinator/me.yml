@@ -23,6 +23,6 @@ windows:
       layout: even-horizontal
       panes:
         - #bash
-        - cd _themes/wags; sass -w sass:css
+        - middleman
 
   - editor: vim .
