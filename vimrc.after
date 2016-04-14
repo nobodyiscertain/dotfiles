@@ -4,6 +4,7 @@ set gfn=Menlo:h13
 color solarized
 set background=dark
 set autoread
+set incsearch "Highlight words as you type while searching
 autocmd BufWritePre * :%s/\s\+$//e
 
 let g:syntastic_disabled_filetypes = ['sass']
