@@ -1,7 +1,7 @@
-# ~/.tmuxinator/ohlife.yml
+# ~/.tmuxinator/mep-web.yml
 
-name: mep
-root: ~/Code/app.myeveningpost.com
+name: mep-web
+root: ~/Code/myeveningpost.com
 
 # Optional tmux socket
 # socket_name: foo
@@ -18,22 +18,19 @@ root: ~/Code/app.myeveningpost.com
 # Change the command to call tmux.  This can be used by derivatives/wrappers like byobu.
 # tmux_command: byobu
 
+# Specifies (by name or index) which window will be selected on project startup. If not set, the first window is used.
+# startup_window: logs
+
+# Controls whether the tmux session should be attached to automatically. Defaults to true.
+# attach: false
+
+# Runs after everything. Use it to attach to tmux with custom options etc.
+# post: tmux -CC attach -t mep-web
+
 windows:
-  - bash&logs:
+  - bash&runner:
       layout: even-horizontal
       panes:
         - # bash
-        - foreman start
+        - guard
   - vim: vim .
-  - console&tests:
-      layout: even-horizontal
-      panes:
-        - be rails c
-        - be guard
-  - logs: tail -f log/development.log
-  - website: cd ../myeveningpost.com; vim .
-  - webash&runner:
-      layout: even-horizontal
-      panes:
-        - "cd ../myeveningpost.com"
-        - "cd ../myeveningpost.com/_themes/mep; sass -w sass:css"
