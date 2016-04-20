@@ -9,6 +9,7 @@ set backspace=indent,eol,start		"Make backspace behave normally
 let mapleader = ","			"Set leader to ,
 set number				"Activate line numbers
 set relativenumber			"Make linenumbers relative to cursor position
+set noswapfile 				"Disable the creating of swap files
 
 
 "------------------- Search -------------------"
