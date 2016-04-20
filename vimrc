@@ -41,9 +41,9 @@ nmap <Leader><space> :noh<cr>
 nmap <Leader>n :NERDTreeToggle<cr>
 
 "Making saving files easier
-nmap <Leader>w :w<cr>
-nmap <Leader>q :q<cr>
-nmap <Leader>wq :wq<cr>
+nmap <space>w :w<cr>
+nmap <space>q :q<cr>
+nmap <space>wq :wq<cr>
 
 "Add ability to move lines up and down
 nmap <C-j> :m .+1<CR>==
