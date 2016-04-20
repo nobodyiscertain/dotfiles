@@ -18,6 +18,9 @@ Plugin 'ervandew/supertab'
 Plugin 'scrooloose/syntastic'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'bronson/vim-trailing-whitespace'
+Plugin 'AndrewRadev/vim-eco'
+Plugin 'kchmck/vim-coffee-script'
+Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 
 call vundle#end()            " required
 filetype plugin indent on    " required
