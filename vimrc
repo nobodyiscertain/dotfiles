@@ -24,6 +24,7 @@ nmap <Leader>j <C-W><C-J>
 nmap <Leader>k <C-W><C-K>
 nmap <Leader>l <C-W><C-L>
 
+
 "------------------- Mappings -------------------"
 
 "Make it east to edit vimrc
@@ -40,6 +41,7 @@ nmap <Leader>w :w<cr>
 nmap <Leader>q :q<cr>
 nmap <Leader>wq :wq<cr>
 
+
 "------------------- Auto-Commands -------------------"
 
 "Source vimrc when saving
@@ -51,10 +53,12 @@ augroup END
 "Kill trailing whitespace
 autocmd BufWritePre * :%s/\s\+$//e
 
+
 "------------------- CTRL P -------------------"
 
 "Exclude files in gitignore from Ctrl+P
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
+
 
 "------------------- NERDTree -------------------"
 let NERDTreeShowLineNumbers = 1
