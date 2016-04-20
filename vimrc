@@ -11,6 +11,10 @@ set number				"Activate line numbers
 set relativenumber			"Make linenumbers relative to cursor position
 set noswapfile 				"Disable the creating of swap files
 
+"Softtabs 2 spaces
+set tabstop=2
+set shiftwidth=2
+set expandtab
 
 "------------------- Search -------------------"
 set hlsearch
