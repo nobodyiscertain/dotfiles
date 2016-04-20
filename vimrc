@@ -41,6 +41,9 @@ nmap <Leader>w :w<cr>
 nmap <Leader>q :q<cr>
 nmap <Leader>wq :wq<cr>
 
+"Add ability to move lines up and down
+nmap <C-j> :m .+1<CR>==
+nmap <C-k> :m .-2<CR>==
 
 "------------------- Auto-Commands -------------------"
 
