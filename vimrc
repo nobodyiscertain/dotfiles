@@ -19,11 +19,14 @@ set incsearch
 set splitbelow
 set splitright
 
-nmap <Leader>h <C-W><C-H>
-nmap <Leader>j <C-W><C-J>
-nmap <Leader>k <C-W><C-K>
-nmap <Leader>l <C-W><C-L>
+nmap <space>h <C-W><C-H>
+nmap <space>j <C-W><C-J>
+nmap <space>k <C-W><C-K>
+nmap <space>l <C-W><C-L>
 
+"------------------- Tab Management -------------------"
+nmap <space>t gt<cr>
+nmap <space>tt gT<cr>
 
 "------------------- Mappings -------------------"
 
