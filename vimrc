@@ -5,10 +5,10 @@ so ~/.vim/plugins.vim
 syntax enable
 colorscheme solarized
 
-set backspace=indent,eol,start		"Make backspace behave normally
-let mapleader = ","			          "Set leader to ,
-set number				                "Activate line numbers
-set relativenumber			          "Make linenumbers relative to cursor position
+set backspace=indent,eol,start    "Make backspace behave normally
+let mapleader = ","               "Set leader to ,
+set number                        "Activate line numbers
+set relativenumber                "Make linenumbers relative to cursor position
 set nowrap                        "Don't wrap lines
 set ruler
 
@@ -41,7 +41,6 @@ nmap <space>t gt<cr>
 nmap <space>tt gT<cr>
 
 "------------------- Mappings -------------------"
-
 "Make it east to edit vimrc
 nmap <Leader>ev :tabedit $MYVIMRC<cr>
 
@@ -70,8 +69,8 @@ nnoremap <leader>fef :normal! gg=G``<CR>
 
 "Source vimrc when saving
 augroup autosourcing
-	autocmd!
-	autocmd BufWritePost vimrc source %
+  autocmd!
+  autocmd BufWritePost vimrc source %
 augroup END
 
 "Kill trailing whitespace
@@ -80,13 +79,10 @@ autocmd BufWritePre * :%s/\s\+$//e
 "Set spacing to 4 for PHP files
 autocmd Filetype php setlocal ts=4 sts=4 sw=4
 
-
 "------------------- CTRL P -------------------"
 
 "Exclude files in gitignore from Ctrl+P
-"let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|public/css\|public/js\|public/build\|storage'
-
 
 "------------------- NERDTree -------------------"
 let NERDTreeShowLineNumbers = 1
@@ -95,15 +91,9 @@ let NERDTreeShowLineNumbers = 1
 set grepprg=ag
 let g:grep_cmd_opts = '--line-numbers --noheading'
 
-
-
-
-
 "------------------- PDV -------------------"
 let g:pdv_template_dir = $HOME ."/.vim/bundle/pdv/templates_snip"
 nnoremap <leader>d :call pdv#DocumentWithSnip()<CR>
-
-
 
 "------------------- Ultisnips -------------------"
 let g:UltiSnipsExpandTrigger="<tab>"
@@ -116,3 +106,4 @@ let g:UltiSnipsSnippetsDir="~/.vim/UltiSnips"
 " zz center line in window
 " Ctrp + ] go to method defined tag browsing
 " Ctrl + ^ go to previous
+"
