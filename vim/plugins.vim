@@ -5,7 +5,6 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'tpope/vim-vinegar'
 Plugin 'scrooloose/nerdtree'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'ctrlpvim/ctrlp.vim'
@@ -21,6 +20,11 @@ Plugin 'bronson/vim-trailing-whitespace'
 Plugin 'AndrewRadev/vim-eco'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+Plugin 'jwalton512/vim-blade'
+Plugin 'jiangmiao/auto-pairs'
+Plugin 'rking/ag.vim'
+Plugin 'kien/rainbow_parentheses.vim'
+Plugin 'skwp/greplace.vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
