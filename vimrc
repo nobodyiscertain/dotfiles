@@ -75,7 +75,8 @@ autocmd Filetype php setlocal ts=4 sts=4 sw=4
 "------------------- CTRL P -------------------"
 
 "Exclude files in gitignore from Ctrl+P
-let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
+"let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|public/css\|public/js\|public/build\|storage'
 
 
 "------------------- NERDTree -------------------"
@@ -84,6 +85,23 @@ let NERDTreeShowLineNumbers = 1
 "------------------- GReplace -------------------"
 set grepprg=ag
 let g:grep_cmd_opts = '--line-numbers --noheading'
+
+
+
+
+
+"------------------- PDV -------------------"
+let g:pdv_template_dir = $HOME ."/.vim/bundle/pdv/templates_snip"
+nnoremap <leader>d :call pdv#DocumentWithSnip()<CR>
+
+
+
+"------------------- Ultisnips -------------------"
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<tab>"
+let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
+let g:UltiSnipsEditSplit="vertical"
+let g:UltiSnipsSnippetsDir="~/.vim/UltiSnips"
 
 "Notes and Tips
 " zz center line in window

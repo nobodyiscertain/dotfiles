@@ -1,0 +1,33 @@
+snippet sect
+@section('$1')
+	$2
+@endsection
+endsnippet
+
+snippet ext
+@extends('$1')
+endsnippet
+
+snippet inc
+@include('$1')
+endsnippet
+
+snippet if
+@if ($1)
+	$2
+@endif
+endsnippet
+
+snippet ife
+@if ($1)
+	$2
+@else
+	$3
+@endif
+endsnippet
+
+snippet unl
+@unless ($1)
+	$2
+@endif
+endsnippet

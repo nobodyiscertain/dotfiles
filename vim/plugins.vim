@@ -25,6 +25,9 @@ Plugin 'jiangmiao/auto-pairs'
 Plugin 'rking/ag.vim'
 Plugin 'kien/rainbow_parentheses.vim'
 Plugin 'skwp/greplace.vim'
+Plugin 'SirVer/ultisnips'
+Plugin 'tobyS/vmustache'
+Plugin 'tobyS/pdv'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
