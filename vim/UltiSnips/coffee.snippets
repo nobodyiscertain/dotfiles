@@ -1,0 +1,14 @@
+snippet tpl
+template: JST['$1']
+endsnippet
+
+snippet render
+render: ->
+	@$el.html @template()
+	$1
+	@
+endsnippet
+
+snippet cl
+console.log $1
+endsnippet
