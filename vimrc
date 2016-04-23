@@ -9,17 +9,23 @@ set backspace=indent,eol,start		"Make backspace behave normally
 let mapleader = ","			          "Set leader to ,
 set number				                "Activate line numbers
 set relativenumber			          "Make linenumbers relative to cursor position
-set noswapfile 				            "Disable the creating of swap files
 set nowrap                        "Don't wrap lines
+set ruler
 
 "Softtabs 2 spaces
 set tabstop=2
 set shiftwidth=2
 set expandtab
 
+"------------------- Backup and swap file -------------------"
+set backupdir^=~/.vim/_backup//    " where to put backup files.
+set directory^=~/.vim/_temp//      " where to put swap files.
+
 "------------------- Search -------------------"
-set hlsearch
-set incsearch
+set hlsearch    " highlight matches
+set incsearch   " incremental searching
+set ignorecase  " searches are case insensitive...
+set smartcase   " ... unless they contain at least one capital letter
 
 "------------------- Split Management -------------------"
 set splitbelow
@@ -56,6 +62,9 @@ nmap <C-k> :m .-2<CR>==
 
 "Tag search made easy
 nmap <Leader>f :tag<space>
+
+" format the entire file
+nnoremap <leader>fef :normal! gg=G``<CR>
 
 "------------------- Auto-Commands -------------------"
 
