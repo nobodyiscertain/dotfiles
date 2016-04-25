@@ -81,7 +81,7 @@ autocmd Filetype php setlocal ts=4 sts=4 sw=4
 
 "------------------- CTRL P -------------------"
 
-"Exclude files in gitignore from Ctrl+P
+" Setup ignored files for CtrlP lookup
 let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|public/css\|public/js\|public/build\|storage'
 
 "------------------- NERDTree -------------------"
