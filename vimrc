@@ -18,8 +18,8 @@ set shiftwidth=2
 set expandtab
 
 "------------------- Backup and swap file -------------------"
-set backupdir^=~/.vim/_backup//    " where to put backup files.
-set directory^=~/.vim/_temp//      " where to put swap files.
+set backupdir=~/.vim/_backup//    " where to put backup files.
+set directory=~/.vim/_temp//      " where to put swap files.
 
 "------------------- Search -------------------"
 set hlsearch    " highlight matches
