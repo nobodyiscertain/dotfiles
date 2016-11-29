@@ -28,6 +28,7 @@ windows:
   - tests&assets:
       layout: even-horizontal
       panes:
+        - java -jar tests/Acceptance/support/bin/selenium.jar -Dwebdriver.chrome.driver=tests/Acceptance/support/bin/chromedriver
         - gulp tdd
         - gulp watch
   - console: php artisan tinker
