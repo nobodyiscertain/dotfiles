@@ -48,6 +48,52 @@ public function $1()
 }
 endsnippet
 
+snippet testc
+/** @test **/
+public function $1(AcceptanceTester $I)
+{
+	$2
+}
+endsnippet
+
+snippet testci
+/** @incomplete **/
+public function $1(AcceptanceTester $I)
+{
+}
+endsnippet
+
+snippet testcl
+<?php
+
+class $1Test extends TestCase
+{
+
+	public function setUp()
+	{
+		parent::setUp();
+	}
+
+}
+endsnippet
+
+snippet cestcl
+<?php
+
+class $1Cest
+{
+
+	public function _before(AcceptanceTester $I)
+	{
+	}
+
+	public function _after(AcceptanceTester $I)
+	{
+	}
+
+}
+endsnippet
+
 snippet dd
 dd($1);
 endsnippet
