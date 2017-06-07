@@ -29,6 +29,8 @@ Plugin 'SirVer/ultisnips'
 Plugin 'tobyS/vmustache'
 Plugin 'tobyS/pdv'
 Plugin 'isRuslan/vim-es6'
+Plugin 'posva/vim-vue'
+Bundle 'jistr/vim-nerdtree-tabs'
 
 call vundle#end()            " required
 filetype plugin indent on    " required

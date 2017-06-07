@@ -1,0 +1,252 @@
+<div class="hero is-fullheight">
+  <div class="hero-body">
+    <img src="{{ theme:img src="partners-advocate-2016-logo.png" }}" alt="Partners Advocate" />
+    <h1>Let their story be heard.</h1>
+    <div class="options is-clearfix">
+      <div class="btn-options btn-share transition">
+        <i class="fa fa-mobile"></i>
+        <h2>Share</h2>
+        <p>Pick up your device and share our content on social media.</p>
+      </div>
+      <div class="btn-options btn-recruit transition">
+        <i class="fa fa-users"></i>
+        <h2>Recruit</h2>
+        <p>Encourage friends and family to follow and support Partners.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="share-wrap">
+  <div class="section-share">
+    <div class="col col-left">
+      <h2>Share</h2>
+      <p>There's power in sharing stories and helping an important message get
+      heard. Every time you share content on our social channels with your
+      network, you help spread the word. It's so easy!</p>
+      <span class="bullet-number bullet-number-1">Follow us on our social media channels.</span>
+      <div id="social-buttons">
+        <span class="facebook-like">
+          <div class="fb-like" data-href="https://www.facebook.com/PartnersReliefAndDevelopment" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+        </span>
+        <span class="twitter-follow">
+          <a href="https://twitter.com/PartnersRelief" class="twitter-follow-button" data-show-count="true" data-dnt="true" data-show-screen-name="false">Follow @PartnersRelief</a>
+        </span>
+      </div>
+      <span class="bullet-number bullet-number-2">Like, comment, favorite, retweet and most importantly, share our content to help it reach even more people.</span>
+    </div>
+    <div class="col col-right">
+      <div class="video-thumb play-trigger hover transition" id="153985749">
+        <img src="{{ theme:img src="partners-advocate-2016-video-thumb.jpg" }}" alt="Play Video" />
+        <i class="fa fa-play-circle play-button"></i>
+      </div>
+      <div class="section-inner">
+        <h3>Our advocates made sure Hafsa's story was heard.</h3>
+        <p>When Hafsa shared her powerful story of escaping human traffickers
+        with our team, we knew it was one the world needed to hear. Thanks to
+        our advocates who shared her story on Facebook, thousands were able to
+        hear and were moved to respond.</p>
+        <div class="highlights"><span class="bold">171</span> Shares &nbsp;&nbsp;<span class="bold">5.8K</span> Views</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="recruit-wrap">
+  <div class="section-recruit">
+    <div class="col col-left">
+      <img src="{{ theme:img src="partners-advocate-2016-photo-thumb.jpg" }}" alt="" />
+      <div class="section-inner">
+        <h3>Jess fed some friends and changed the world.</h3>
+        <p>Moved to respond to the refugee crisis in Myanmar, Jess asked some
+        friends over for dinner and showed them one of Partners’ videos.
+        Afterwards she answered some questions about Partners work asked if
+        anyone wanted to do something to help, with some of her friends
+        responding by becoming monthly supporters. Her simple dinner party has
+        meant even more people will be helped.</p>
+        <div class="highlights"><span class="bold">3</span> New Supporters</div>
+      </div>
+    </div>
+    <div class="col col-right">
+      <h2>Recruit</h2>
+      <p>We need your friends help too! Go a step further and actively recruit
+      other like-minded people to join the team.</p>
+      <span class="bullet-number bullet-number-1">Use Facebook's page
+        invitation tool to ask some of your friends to follow Partners'
+        Facebook page. Just visit our page and click the option to invite
+      friends to like this page.</span>
+      <img src="{{ theme:img src="partners-advocate-2016-facebook-invite.png" }}" alt="Use Facebook's invite tool to encourage friends to follow Partners" />
+      <span class="bullet-number bullet-number-2">Invite like-minded friends
+        for a meal and share about Partners work with children affected by
+        conflict and oppression. Show them one of our videos and invite those
+      who feel moved to respond to consider becoming monthly supporters.</span>
+    </div>
+  </div>
+</div>
+
+<div id="resources-wrap">
+  <div class="section-resources section-inner">
+    <h2>Spread The Word</h2>
+    <p>Use these resources as you help share stories and help spread the word about our work bringing free, full lives to children affected by conflict and oppression.</p>
+    <div class="thirds is-clearfix">
+      <div class='square-box square-box-first'>
+        <div id="share-status" class='square-content'>
+          <div>
+            <span>
+              <i class="fa fa-twitter icon"></i>Share A Status
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class='square-box square-box-second'>
+        <div id="share-video" class='square-content'>
+          <div>
+            <span>
+              <i class="fa fa-play-circle icon"></i>Share A Video
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class='square-box square-box-third'>
+        <div id="use-cover" class='square-content'>
+          <div>
+            <span>
+              <span class="fa-stack fa-lg icon-span">
+                <i class="fa fa-square-o fa-stack-2x"></i>
+                <i class="fa fa-user fa-stack-1x"></i>
+              </span>Cover Photos
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class='square-box square-box-fourth'>
+        <div id="download-photos" class='square-content'>
+          <div>
+            <span>
+              <i class="fa fa-picture-o icon"></i>Download Photos
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="scroll-point"></div>
+
+<div id="share-status-wrap">
+  <div class="section-status section-inner">
+    <h2>Share A Status</h2>
+    <p>We’ve put together some messages which you can easily share on your Facebook or Twitter feed or if you feel inspired, you can write your own.</p>
+    <div class="share-box">
+      <span>Select or type a message below and click to share.</span>
+      <div class="messages-wrap">
+        <div class="button message-button selected transition" id="message-1">One</div><div class="button message-button transition" id="message-2">Two</div><div class="button message-button transition" id="message-3">Three</div>
+      </div>
+      <textarea id="social-message" type="textarea" maxlength="140">Know someone who is a refugee?  Or a victim of war? Join the movement of supporters for @PartnersRelief http://partners.ngo</textarea>
+      <div class="button-wrap">
+        <div class="btn fb-share transition" data-href="http://www.partners.ngo"><i class="fa fa-facebook"></i> Share</div><div class="btn tw-share transition"><i class="fa fa-twitter"></i> Tweet</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="share-video-wrap">
+  <div class="section-share-video section-inner">
+    <h2>Share a Video</h2>
+    <p>Video is one of the most powerful storytelling mediums, so we’ve collected some of our favorite stories for you to share online or download to show at public events.
+    </p>
+    <div class="video-box">
+      <iframe class="video" src="//player.vimeo.com/video/125429144?title=0&amp;byline=0&amp;portrait=0&amp;color=34d8b3" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      <h3>A Snapshot of Partners</h3>
+      <a class="transition" href="https://vimeo.com/125429144" target="_blank"><i class="fa fa-arrow-circle-down"></i>Download</a>
+    </div>
+    <div class="video-box">
+      <iframe class="video" src="//player.vimeo.com/video/160195985?title=0&amp;byline=0&amp;portrait=0&amp;color=d43623" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      <h3>Trapped in the Mountains</h3>
+      <a class="transition" href="https://vimeo.com/160195985" target="_blank"><i class="fa fa-arrow-circle-down"></i>Download</a>
+    </div>
+    <div class="video-box">
+      <iframe class="video" src="//player.vimeo.com/video/157024513?title=0&amp;byline=0&amp;portrait=0&amp;color=34d8b3" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      <h3>Lung Sai's Harvest</h3>
+      <a class="transition" href="https://vimeo.com/157024513" target="_blank"><i class="fa fa-arrow-circle-down"></i>Download</a>
+    </div>
+    <div class="video-box">
+      <iframe class="video" src="//player.vimeo.com/video/153985749?title=0&amp;byline=0&amp;portrait=0&amp;color=34d8b3" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      <h3>Hafsa's Story</h3>
+      <a class="transition" href="https://vimeo.com/153985749" target="_blank"><i class="fa fa-arrow-circle-down"></i>Download</a>
+    </div>
+    <div class="video-box">
+      <iframe class="video" src="//player.vimeo.com/video/141865288?title=0&amp;byline=0&amp;portrait=0&amp;color=34d8b3" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      <h3>Intertwine</h3>
+      <a class="transition" href="https://vimeo.com/141865288" target="_blank"><i class="fa fa-arrow-circle-down"></i>Download</a>
+    </div>
+    <div class="video-box">
+      <iframe class="video" src="//player.vimeo.com/video/17909489?title=0&amp;byline=0&amp;portrait=0&amp;color=34d8b3" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      <h3>Not So Different</h3>
+      <a class="transition" href="https://vimeo.com/17909489" target="_blank"><i class="fa fa-arrow-circle-down"></i>Download</a>
+    </div>
+  </div>
+</div>
+
+<div id="use-cover-wrap">
+  <div class="section-cover section-inner">
+    <h2>Use a Cover Photo</h2>
+    <p>We’ve collected some beautiful images of the children you care about to share with your friends on your Facebook timeline and Twitter feed.
+    </p>
+    <div class="cover-box">
+      <img src="{{ theme:img src="donate-your-voice-cover-t-01.jpg" }}" />
+      <a class="transition" href="{{ theme:img src="donate-your-voice-fb-cover-01.jpg" target="_blank" download="partners-cover-image">Download For <i class="fa fa-facebook-square"></i></a> | <a class="transition" href="{{ theme:img src="donate-your-voice-tw-cover-01.jpg" }}" }}" target="_blank" download="partners-cover-image">Download For <i class="fa fa-twitter-square"></i></a>
+    </div>
+    <div class="cover-box">
+      <img src="{{ theme:img src="donate-your-voice-cover-t-02.jpg" }}" />
+      <a class="transition" href="{{ theme:img src="donate-your-voice-fb-cover-02.jpg" target="_blank" download="partners-cover-image">Download For <i class="fa fa-facebook-square"></i></a> | <a class="transition" href="{{ theme:img src="donate-your-voice-tw-cover-02.jpg" }}" }}" target="_blank" download="partners-cover-image">Download For <i class="fa fa-twitter-square"></i></a>
+    </div>
+    <div class="cover-box">
+      <img src="{{ theme:img src="donate-your-voice-cover-t-03.jpg" }}" />
+      <a class="transition" href="{{ theme:img src="donate-your-voice-fb-cover-03.jpg" target="_blank" download="partners-cover-image">Download For <i class="fa fa-facebook-square"></i></a> | <a class="transition" href="{{ theme:img src="donate-your-voice-tw-cover-03.jpg" }}" }}" target="_blank" download="partners-cover-image">Download For <i class="fa fa-twitter-square"></i></a>
+    </div>
+    <div class="cover-box">
+      <img src="{{ theme:img src="donate-your-voice-cover-t-04.jpg" }}" />
+      <a class="transition" href="{{ theme:img src="donate-your-voice-fb-cover-04.jpg" target="_blank" download="partners-cover-image">Download For <i class="fa fa-facebook-square"></i></a> | <a class="transition" href="{{ theme:img src="donate-your-voice-tw-cover-04.jpg" }}" }}" target="_blank" download="partners-cover-image">Download For <i class="fa fa-twitter-square"></i></a>
+    </div>
+    <div class="cover-box">
+      <img src="{{ theme:img src="donate-your-voice-cover-t-05.jpg" }}" />
+      <a class="transition" href="{{ theme:img src="donate-your-voice-fb-cover-05.jpg" target="_blank" download="partners-cover-image">Download For <i class="fa fa-facebook-square"></i></a> | <a class="transition" href="{{ theme:img src="donate-your-voice-tw-cover-05.jpg" }}" }}" target="_blank" download="partners-cover-image">Download For <i class="fa fa-twitter-square"></i></a>
+    </div>
+    <div class="cover-box">
+      <img src="{{ theme:img src="donate-your-voice-cover-t-06.jpg" }}" />
+      <a class="transition" href="{{ theme:img src="donate-your-voice-fb-cover-06.jpg" target="_blank" download="partners-cover-image">Download For <i class="fa fa-facebook-square"></i></a> | <a class="transition" href="{{ theme:img src="donate-your-voice-tw-cover-06.jpg" }}" }}" target="_blank" download="partners-cover-image">Download For <i class="fa fa-twitter-square"></i></a>
+    </div>
+    <div class="cover-box">
+      <img src="{{ theme:img src="donate-your-voice-cover-t-07.jpg" }}" />
+      <a class="transition" href="{{ theme:img src="donate-your-voice-fb-cover-07.jpg" target="_blank" download="partners-cover-image">Download For <i class="fa fa-facebook-square"></i></a> | <a class="transition" href="{{ theme:img src="donate-your-voice-tw-cover-07.jpg" }}" }}" target="_blank" download="partners-cover-image">Download For <i class="fa fa-twitter-square"></i></a>
+    </div>
+    <div class="cover-box">
+      <img src="{{ theme:img src="donate-your-voice-cover-t-08.jpg" }}" />
+      <a class="transition" href="{{ theme:img src="donate-your-voice-fb-cover-08.jpg" target="_blank" download="partners-cover-image">Download For <i class="fa fa-facebook-square"></i></a> | <a class="transition" href="{{ theme:img src="donate-your-voice-tw-cover-08.jpg" }}" }}" target="_blank" download="partners-cover-image">Download For <i class="fa fa-twitter-square"></i></a>
+    </div>
+  </div>
+</div>
+
+<div id="download-photos-wrap">
+  <div class="section-photos section-inner">
+    <h2>Download Photos</h2>
+    <p>We’ve put together a collection of some of our favorite images taken by our staff and volunteers. You can download and use these to help share how we’re working together to build a better future for children affected by conflict and oppression.</p>
+    <a class="btn transition" href="/files/partnersworld.org/donate-your-voice-photo-collection.zip"><i class="fa fa-arrow-circle-down"></i> &nbsp; Download Collection</a>
+    <img src="{{ theme:img src="donate-your-voice-photo-collage.jpg" }}" />
+  </div>
+</div>
+
+<div id="video-player-wrap">
+  <div class="close-player"><i class="fa fa-times"></i></div>
+  <div class="absolute-center">
+    <div class="embed-container">
+      <iframe class="the-video" id="vimeo-player" src="about:blank" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+
+{{ section:page_scripts }}
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+{{ /section:page_scripts }}

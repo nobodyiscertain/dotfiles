@@ -48,7 +48,7 @@ nmap <Leader>ev :tabedit $MYVIMRC<cr>
 nmap <Leader><space> :noh<cr>
 
 "NERDTree Open shortcut
-nmap <Leader>n :NERDTreeToggle<cr>
+nmap <Leader>n <plug>NERDTreeTabsToggle<cr>
 
 "Making saving files easier
 nmap <space>w :w<cr>
