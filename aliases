@@ -24,6 +24,8 @@ alias gb='git br'
 alias gba='git br -a'
 alias gc='git commit'
 alias grm='git ls-files -d -z | xargs -0 git update-index --remove'
+alias wip="git add . && git commit -m 'wip'"
+alias nah="git reset --hard && git clean -df"
 
 # Capistrano Commands
 alias cpd='cap production deploy'
@@ -46,7 +48,7 @@ alias ap_stop='sudo apachectl stop'
 alias ap_restart='sudo apachectl restart'
 
 # OhEhSex
-alias fdns='sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder; say cache flushed'
+alias fdns='sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder; say mother fucking cache flushed'
 alias phplog='tlf /Applications/MAMP/logs/php_error.log'
 alias clearbashlog='sudo rm -rf /var/log/asl/*.asl'
 
@@ -58,6 +60,7 @@ alias tma='tmux attach -t'
 
 # PHP
 alias t="phpunit -v"
+alias art="php artisan"
 
 function msd {
   mysqldump -uroot -proot $1 | gzip > $1.sql.gz
