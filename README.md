@@ -3,10 +3,13 @@
 ## Dependencies
 You will need to brew install some packages:
 
-    brew install the_silver_searcher
+```bash
+brew install the_silver_searcher
 
-    brew install ctags
+brew install ctags
 
+brew install fzf
+```
 ## Installation
 
 Clone this repository, change into the cloned directory and run:

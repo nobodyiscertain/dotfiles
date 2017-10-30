@@ -27,4 +27,7 @@ source /usr/local/share/chruby/auto.sh
 # Git Commands
 [[ -s $HOME/.gitcompletion ]] && source $HOME/.gitcompletion
 
+# Fuzzy Finder FZF
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
