@@ -15,6 +15,9 @@ export EDITOR=vim
 export TERM=xterm-256color
 export PATH="$(brew --prefix qt@5.5)/bin:$PATH"
 
+source /usr/local/share/chruby/chruby.sh
+source /usr/local/share/chruby/auto.sh
+
 # Tmuxinator
 [[ -s $HOME/.tmuxinator/scripts/tmuxinator ]] && source $HOME/.tmuxinator/scripts/tmuxinator
 
