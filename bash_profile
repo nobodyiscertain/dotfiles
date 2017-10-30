@@ -13,6 +13,7 @@ export MAGICK_HOME="/usr/local"
 export NODE_PATH="/usr/local/lib/node:/usr/local/lib/node_modules"
 export EDITOR=vim
 export TERM=xterm-256color
+export PATH="$(brew --prefix qt@5.5)/bin:$PATH"
 
 # Tmuxinator
 [[ -s $HOME/.tmuxinator/scripts/tmuxinator ]] && source $HOME/.tmuxinator/scripts/tmuxinator
