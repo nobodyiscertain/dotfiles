@@ -65,6 +65,12 @@ nmap <Leader>f :tag<space>
 " format the entire file
 nnoremap <leader>fef :normal! gg=G``<CR>
 
+" Vim Rspec
+map <Leader>t :call RunCurrentSpecFile()<CR>
+map <Leader>s :call RunNearestSpec()<CR>
+map <Leader>l :call RunLastSpec()<CR>
+map <Leader>a :call RunAllSpecs()<CR>
+
 "------------------- Auto-Commands -------------------"
 
 "Source vimrc when saving

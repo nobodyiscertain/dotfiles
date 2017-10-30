@@ -1,4 +1,4 @@
-source ~/.profile
+#source ~/.profile
 export PS1='\[\033[0;31m\]hacker@\[\033[0;33m\]\w\[\033[0;34m\]$(__git_ps1 " (%s)")\[\033[00m\]$ '
 export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/share/npm/bin:/opt/local/bin:_add-ons/stag/bin:$PATH"
 # Postgres.app

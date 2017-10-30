@@ -31,6 +31,7 @@ Plugin 'tobyS/pdv'
 Plugin 'isRuslan/vim-es6'
 Plugin 'posva/vim-vue'
 Plugin 'tpope/vim-rails'
+Plugin 'thoughtbot/vim-rspec'
 Bundle 'jistr/vim-nerdtree-tabs'
 
 call vundle#end()            " required
