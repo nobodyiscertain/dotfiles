@@ -7,7 +7,6 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'altercation/vim-colors-solarized'
-Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'vim-scripts/Align'
 Plugin 'tpope/vim-surround'
 Plugin 'ap/vim-css-color'
@@ -32,6 +31,7 @@ Plugin 'isRuslan/vim-es6'
 Plugin 'posva/vim-vue'
 Plugin 'tpope/vim-rails'
 Plugin 'thoughtbot/vim-rspec'
+Plugin 'junegunn/fzf.vim'
 Bundle 'jistr/vim-nerdtree-tabs'
 
 call vundle#end()            " required
