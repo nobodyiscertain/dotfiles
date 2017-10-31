@@ -88,10 +88,8 @@ autocmd Filetype php setlocal ts=4 sts=4 sw=4
 "Set Vue components to be html
 autocmd BufRead,BufNewFile *.vue setlocal filetype=js.html.vue
 
-"------------------- CTRL P -------------------"
-
-" Setup ignored files for CtrlP lookup
-let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|public/css\|public/js\|public/build\|storage'
+"------------------- FZF -------------------"
+set rtp+=/usr/local/opt/fzf
 
 "------------------- NERDTree -------------------"
 let NERDTreeShowLineNumbers = 1
