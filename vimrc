@@ -62,6 +62,9 @@ nmap <C-k> :m .-2<CR>==
 "Tag search made easy
 nmap <Leader>f :tag<space>
 
+"Trigger FZF with ctrl-p
+nmap <C-p> :Files<CR>
+
 " format the entire file
 nnoremap <leader>fef :normal! gg=G``<CR>
 
