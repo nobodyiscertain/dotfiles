@@ -62,6 +62,9 @@ alias tma='tmux attach -t'
 alias t="phpunit -v"
 alias art="php artisan"
 
+# Kajabi
+alias kjd="psql -d kajabi-portals_development"
+
 function msd {
   mysqldump -uroot -proot $1 | gzip > $1.sql.gz
 }
