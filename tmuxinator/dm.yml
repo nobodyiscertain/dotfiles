@@ -32,7 +32,7 @@ windows:
       layout: even-horizontal
       panes:
         - #bash
-        - heroku local
+        - tail -f log/development.log
   - vim: vim .
   - console: rails c
   - logs:
