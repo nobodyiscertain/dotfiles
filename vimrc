@@ -112,6 +112,9 @@ let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 let g:UltiSnipsEditSplit="vertical"
 let g:UltiSnipsSnippetsDir="~/.vim/UltiSnips"
 
+"------------------- RSpec -------------------"
+let g:rspec_command = 'call Send_to_Tmux("bundle exec spring rspec {spec}\n")'
+
 "Notes and Tips
 " zz center line in window
 " Ctrp + ] go to method defined tag browsing

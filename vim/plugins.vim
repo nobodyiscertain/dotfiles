@@ -32,6 +32,7 @@ Plugin 'posva/vim-vue'
 Plugin 'tpope/vim-rails'
 Plugin 'thoughtbot/vim-rspec'
 Plugin 'junegunn/fzf.vim'
+Plugin 'jgdavey/tslime.vim'
 Bundle 'jistr/vim-nerdtree-tabs'
 
 call vundle#end()            " required
