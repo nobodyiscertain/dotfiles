@@ -33,6 +33,8 @@ Plugin 'tpope/vim-rails'
 Plugin 'thoughtbot/vim-rspec'
 Plugin 'junegunn/fzf.vim'
 Plugin 'jgdavey/tslime.vim'
+Plugin 'nelstrom/vim-textobj-rubyblock'
+Plugin 'kana/vim-textobj-user'
 Bundle 'jistr/vim-nerdtree-tabs'
 
 call vundle#end()            " required

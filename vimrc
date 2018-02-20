@@ -1,5 +1,7 @@
 set nocompatible                  "Only use the new Vim
 
+runtime macros/matchit.vim
+
 so ~/.vim/plugins.vim
 
 syntax enable
