@@ -14,6 +14,13 @@ set relativenumber                "Make linenumbers relative to cursor position
 set nowrap                        "Don't wrap lines
 set ruler
 
+" Mastering Vim Options
+set cursorline
+set autoread
+set laststatus=2 " Always display the status bar.
+set wildmenu     " Display command line’s tab complete options as a menu.
+set undofile "Maintain undo history between sessions
+
 "Softtabs 2 spaces
 set tabstop=2
 set shiftwidth=2
@@ -22,6 +29,10 @@ set expandtab
 "------------------- Backup and swap file -------------------"
 set backupdir=~/.vim/_backup//    " where to put backup files.
 set directory=~/.vim/_temp//      " where to put swap files.
+set undodir=~/.vim/_undo//        " Where to push undofiles
+
+set nobackup
+set nowb
 
 "------------------- Search -------------------"
 set hlsearch    " highlight matches
