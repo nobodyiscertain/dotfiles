@@ -34,6 +34,8 @@ set undodir=~/.vim/_undo//        " Where to push undofiles
 set nobackup
 set nowb
 
+set background=dark
+
 "------------------- Search -------------------"
 set hlsearch    " highlight matches
 set incsearch   " incremental searching
@@ -71,6 +73,9 @@ nmap <space>wq :wq<cr>
 "Add ability to move lines up and down
 nmap <C-j> :m .+1<CR>==
 nmap <C-k> :m .-2<CR>==
+
+"Git Messenger
+nmap <Leader>b :GitMessenger<CR>
 
 "Tag search made easy
 nmap <Leader>f :tag<space>

@@ -1,5 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/Users/nobodyiscertain/Code/dotfiles/tmuxinator'
-let g:netrw_dirhist_2='/Users/jamiewagner/Code/dotfiles'
-let g:netrw_dirhist_3='/Users/jamiewagner/Code/dotfiles/vim'
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/usr/local/Cellar/tmux'
+let g:netrw_dirhist_2='/usr/local/Cellar/tmux/2.8'
+let g:netrw_dirhist_3='/usr/local/Cellar/tmux'
+let g:netrw_dirhist_4='/usr/local/Cellar'
+let g:netrw_dirhist_5='/usr/local'
+let g:netrw_dirhist_6='/usr/local/bin'
+let g:netrw_dirhist_7='/Users/jamiewagner/Code/dotfiles/tmuxinator'

@@ -58,5 +58,9 @@ windows:
       panes:
         - be rails c
         - kjd
-  - server: heroku local
+  - server:
+      layout: even-horizontal
+      panes:
+        - heroku local
+        - vim .env
 

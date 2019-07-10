@@ -34,6 +34,10 @@ Plugin 'junegunn/fzf.vim'
 Plugin 'jgdavey/tslime.vim'
 Plugin 'nelstrom/vim-textobj-rubyblock'
 Plugin 'kana/vim-textobj-user'
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
+Plugin 'jremmen/vim-ripgrep'
+Plugin 'rhysd/git-messenger.vim'
 Bundle 'jistr/vim-nerdtree-tabs'
 
 call vundle#end()            " required
