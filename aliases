@@ -68,3 +68,5 @@ alias kjd="psql -d kajabi-portals_development"
 function msd {
   mysqldump -uroot -proot $1 | gzip > $1.sql.gz
 }
+
+alias bump_server="ssh -R www.dailybroic.life:80:localhost:5000 -R kajabiuniversity:80:localhost:5000 -R commodo:80:localhost:5000 serveo.net"
