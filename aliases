@@ -48,7 +48,7 @@ alias ap_stop='sudo apachectl stop'
 alias ap_restart='sudo apachectl restart'
 
 # OhEhSex
-alias fdns='sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder; say mother fucking cache flushed'
+alias fdns='sudo killall -HUP mDNSResponder; sleep 2; echo macOS DNS Cache Reset | say'
 alias phplog='tlf /Applications/MAMP/logs/php_error.log'
 alias clearbashlog='sudo rm -rf /var/log/asl/*.asl'
 
