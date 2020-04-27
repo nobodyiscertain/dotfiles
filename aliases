@@ -41,6 +41,7 @@ alias mysql:start='mysql.server start'
 #Postgresql
 alias pg:start='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start'
 alias pg:stop='pg_ctl -D /usr/local/var/postgres stop -s -m fast'
+alias pg:fix='rm /usr/local/var/postgresql\@11/postmaster.pid; brew services restart postgresql@11'
 
 #Apache Commands
 alias ap_start='sudo apachectl start'
