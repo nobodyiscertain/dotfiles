@@ -38,6 +38,20 @@ Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
 Plugin 'jremmen/vim-ripgrep'
 Plugin 'rhysd/git-messenger.vim'
+Plugin 'frazrepo/vim-rainbow'
+Plugin 'itchyny/lightline.vim'
+Plugin 'elzr/vim-json'
+Plugin 'othree/html5.vim'
+Plugin 'vim-rubyformat'
+Plugin 'tpope/vim-fugitive'
+
+" Color Schemes
+Plugin 'gilgigilgil/anderson.vim'
+Plugin 'megantiu/true.vim'
+Plugin 'wadackel/vim-dogrun'
+Plugin 'bluz71/vim-nightfly-guicolors'
+Plugin 'franbach/miramare'
+
 Bundle 'jistr/vim-nerdtree-tabs'
 
 call vundle#end()            " required

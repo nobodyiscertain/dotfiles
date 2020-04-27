@@ -5,14 +5,15 @@ runtime macros/matchit.vim
 so ~/.vim/plugins.vim
 
 syntax enable
-colorscheme solarized
 
 set backspace=indent,eol,start    "Make backspace behave normally
 let mapleader = ","               "Set leader to ,
 set number                        "Activate line numbers
 set relativenumber                "Make linenumbers relative to cursor position
 set nowrap                        "Don't wrap lines
+set noshowmode                    "Don't show mode in status
 set ruler
+set termguicolors
 
 " Mastering Vim Options
 set cursorline
@@ -34,6 +35,9 @@ set undodir=~/.vim/_undo//        " Where to push undofiles
 set nobackup
 set nowb
 
+"------------------- Colors -------------------"
+colorscheme nightfly
+let g:nightflyCursorColor = 1
 set background=dark
 
 "------------------- Search -------------------"
@@ -118,6 +122,11 @@ let NERDTreeShowLineNumbers = 1
 "------------------- GReplace -------------------"
 set grepprg=ag
 let g:grep_cmd_opts = '--line-numbers --noheading'
+
+"------------------- Lightline -------------------"
+let g:lightline = {
+      \ 'colorscheme': 'nightfly',
+      \ }
 
 "------------------- PDV -------------------"
 let g:pdv_template_dir = $HOME ."/.vim/bundle/pdv/templates_snip"
