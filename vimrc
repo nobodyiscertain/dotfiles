@@ -37,7 +37,6 @@ set nowb
 
 "------------------- Colors -------------------"
 colorscheme nightfly
-let g:nightflyCursorColor = 1
 set background=dark
 
 "------------------- Search -------------------"
