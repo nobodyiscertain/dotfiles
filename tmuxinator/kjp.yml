@@ -49,9 +49,9 @@ windows:
         - #bash
         - tail -f log/development.log
   - vim:
-      layout: 243a,531x127,0,0{398x127,0,0,1,132x127,399,0,7}
+      layout: even-horizontal
       panes:
-        - vim
+        - vim .
         - #bash
   - consoles:
       layout: even-horizontal
