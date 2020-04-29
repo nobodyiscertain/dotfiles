@@ -64,7 +64,8 @@ alias t="phpunit -v"
 alias art="php artisan"
 
 # Kajabi
-alias kjd="psql -d kajabi-portals_development"
+alias kj:db="psql -d kajabi-portals_development"
+alias kj:nr="heroku addons:open newrelic -r production"
 
 function msd {
   mysqldump -uroot -proot $1 | gzip > $1.sql.gz
