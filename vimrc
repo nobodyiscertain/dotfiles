@@ -125,8 +125,15 @@ let g:grep_cmd_opts = '--line-numbers --noheading'
 "------------------- Lightline -------------------"
 let g:lightline = {
       \ 'colorscheme': 'nightfly',
+      \ 'component_function': {
+      \   'filename': 'FilenameForLightline',
+      \ }
       \ }
 
+" Show full path of filename
+function! FilenameForLightline()
+    return expand('%')
+endfunction
 "------------------- PDV -------------------"
 let g:pdv_template_dir = $HOME ."/.vim/bundle/pdv/templates_snip"
 nnoremap <leader>d :call pdv#DocumentWithSnip()<CR>
