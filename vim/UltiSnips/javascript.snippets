@@ -1,0 +1,28 @@
+snippet index
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+
+ReactDOM.render(<App />, document.querySelector('#root'));
+endsnippet
+
+snippet comp
+import React from 'react';
+
+const $1 = () => {
+	return (
+		<div>$1</div>
+	);
+}
+
+export default $1;
+endsnippet
+
+snippet ust
+const [$1, $2] = useState($3);
+endsnippet
+
+snippet conl
+console.log($1);
+endsnippet
+
