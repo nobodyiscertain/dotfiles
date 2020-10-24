@@ -48,19 +48,15 @@ windows:
       panes:
         - #bash
         - tail -f log/development.log
-  - vim:
-      layout: even-horizontal
-      panes:
-        - vim .
-        - #bash
+  - vim: vim .
   - consoles:
       layout: even-horizontal
       panes:
         - be rails c
-        - kjd
+        - kj:db
   - server:
       layout: even-horizontal
       panes:
-        - heroku local
-        - vim .env
+        - be bin/web 5000
+        - be sidekiq -C ./config/sidekiq_combined.yml
 
