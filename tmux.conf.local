@@ -294,3 +294,7 @@ bind C-a send-prefix
 
 # move status line to top
 #set -g status-position top
+
+# quick pane cycling
+unbind ^A
+bind ^A select-pane -t :.+

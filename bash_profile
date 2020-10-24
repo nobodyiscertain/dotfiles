@@ -16,6 +16,9 @@ export TERM=xterm-256color
 source /usr/local/share/chruby/chruby.sh
 source /usr/local/share/chruby/auto.sh
 
+# php-version
+source $(brew --prefix php-version)/php-version.sh && php-version 7.2
+
 # Tmuxinator
 [[ -s $HOME/.tmuxinator/scripts/tmuxinator ]] && source $HOME/.tmuxinator/scripts/tmuxinator
 
