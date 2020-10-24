@@ -112,6 +112,10 @@ autocmd Filetype php setlocal ts=4 sts=4 sw=4
 "Set Vue components to be html
 autocmd BufRead,BufNewFile *.vue setlocal filetype=js.html.vue
 
+" Force Vim to load sparkup for additional files
+" https://github.com/rstacruz/sparkup/issues/139
+autocmd BufReadPost,BufNewFile *.js runtime ftplugin/html/sparkup.vim
+
 "------------------- FZF -------------------"
 set rtp+=/usr/local/opt/fzf
 
