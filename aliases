@@ -68,14 +68,15 @@ alias t="phpunit -v"
 alias art="php artisan"
 
 # Kajabi
-alias kj:db="psql -d kajabi-portals_development"
-alias kj:nr="heroku addons:open newrelic -r production"
+alias kj:db='psql -d kajabi-portals_development'
+alias kj:nr='heroku addons:open newrelic -r production'
+alias kj:worker_combined='bundle exec sidekiq -C ./config/sidekiq_combined.yml'
 
 # Nuke Processes
 alias nuke_ws="lsof -t -i tcp:5000 | xargs kill"
 
 # Webpacker
-alias nuke_webpacker="be rake webpacker:clobber && yarn cache clean && yarn install && be rake webpacker:compile"
+alias nuke_webpacker='be rake webpacker:clobber && yarn cache clean && yarn install && be rake webpacker:compile'
 
 function msd {
   mysqldump -uroot -proot $1 | gzip > $1.sql.gz
