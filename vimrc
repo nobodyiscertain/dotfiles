@@ -115,6 +115,7 @@ autocmd BufRead,BufNewFile *.vue setlocal filetype=js.html.vue
 " Force Vim to load sparkup for additional files
 " https://github.com/rstacruz/sparkup/issues/139
 autocmd BufReadPost,BufNewFile *.js runtime ftplugin/html/sparkup.vim
+autocmd BufReadPost,BufNewFile *.jsx runtime ftplugin/html/sparkup.vim
 
 "------------------- FZF -------------------"
 set rtp+=/usr/local/opt/fzf
