@@ -1,4 +1,3 @@
-#source ~/.profile
 export PS1='\[\033[0;31m\]hacker@\[\033[0;33m\]\w\[\033[0;34m\]$(__git_ps1 " (%s)")\[\033[00m\]$ '
 #export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/share/npm/bin:/opt/local/bin:_add-ons/stag/bin:$PATH"
 export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
@@ -13,12 +12,12 @@ export MAGICK_HOME="/usr/local"
 export EDITOR=vim
 export TERM=xterm-256color
 
-# chruby
-source /usr/local/share/chruby/chruby.sh
-source /usr/local/share/chruby/auto.sh
+# rbenv
+eval "$(rbenv init - --no-rehash)"
+export PATH="$HOME/.rbenv/bin:$PATH"
 
 # php-version
-source $(brew --prefix php-version)/php-version.sh && php-version 7.2
+# source $(brew --prefix php-version)/php-version.sh && php-version 7.2
 
 # Tmuxinator
 [[ -s $HOME/.tmuxinator/scripts/tmuxinator ]] && source $HOME/.tmuxinator/scripts/tmuxinator
