@@ -13,7 +13,6 @@ alias be="bundle exec"
 alias ealiases='vim -f "$HOME/.aliases"; source "$HOME/.aliases";'
 alias egit='vim "$HOME/.gitconfig"'
 alias ehosts='sudo vim /etc/hosts'
-alias evhosts='sudo vim -f /etc/apache2/extra/httpd-vhosts.conf; sudo apachectl restart;'
 
 # Git Commands
 alias gst='git status'
@@ -31,28 +30,12 @@ alias nah="git reset --hard && git clean -df"
 alias pst='gh pr status'
 alias prv='gh pr view'
 
-# Capistrano Commands
-alias cpd='cap production deploy'
-alias cdb='cap production pull_db'
-alias cpf='cap production pull_files'
-alias cpdb='cap production db:pull'
-alias cddb='cap dev db:pull'
-
-# MySQL Commands
-alias mysql:stop='/usr/local/opt/mysql@5.7/bin/mysql.server stop'
-alias mysql:start='/usr/local/opt/mysql@5.7/bin/mysql.server start'
-
 # Postgresql
 alias pg:start='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start'
 alias pg:stop='pg_ctl -D /usr/local/var/postgres stop -s -m fast'
 alias pg:fix='rm /usr/local/var/postgresql\@11/postmaster.pid; brew services restart postgresql@11'
 
-# Apache Commands
-alias ap_start='sudo apachectl start'
-alias ap_stop='sudo apachectl stop'
-alias ap_restart='sudo apachectl restart'
-
-# OhEhSex
+# OSX
 alias fdns='sudo killall -HUP mDNSResponder; sleep 2; echo macOS DNS Cache Reset | say'
 alias phplog='tlf /Applications/MAMP/logs/php_error.log'
 alias clearbashlog='sudo rm -rf /var/log/asl/*.asl'
@@ -82,4 +65,3 @@ function msd {
   mysqldump -uroot -proot $1 | gzip > $1.sql.gz
 }
 
-alias bump_server="ssh -R www.dailybroic.life:80:localhost:5000 -R kajabiuniversity:80:localhost:5000 -R commodo:80:localhost:5000 serveo.net"
